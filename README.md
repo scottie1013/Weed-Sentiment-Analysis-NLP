@@ -1,6 +1,7 @@
 # Weed-Sentiment-Analysis-NLP
 
 Project Idea: Using 2020's geolocation-specific Twitter data, we aim to gauge Californians' sentiments on cannabis. We'll compile a dataset of dispensary density and incorporate socioeconomic metrics like education and poverty rates (all county-level, 2020, in California). After deriving sentiment scores, we'll merge the data into one data frame. Using regression analyses, we'll identify trends and present the findings through visualizations. The study examines if dispensary concentration and socioeconomic factors shape local attitudes toward cannabis.
+
 Description of datasets: The "ActiveRetailer_Cannabis.xlsx" from the California Department of Cannabis Control contains data on 1,653 licensed retailers from 2018-2024, including license details (e.g. License type, Issuance date, and Expiration date ) and store locations. This will be used for a 2020 retailer panel dataset and dispensary density map; Cannabis-related tweets in 2020: Targeting 10,000 cleaned tweets with cannabis keywords from California accounts, this dataset will aid in analyzing sentiment and regional cannabis trends.; CA County Socioeconomic (2020): Sourced from the U.S. Census Bureau, this dataset provides insights on county-level poverty and education.
 
 ## Twitter Data Collection 

@@ -39,3 +39,6 @@ We aggregated the tweet sentiments by county. This step allowed for the calculat
 To enhance the depth of the analysis, we introduced a secondary dataset: a CSV file containing population figures for California counties spanning from 2018 to 2022. The county names in this dataset were refined by removing the descriptor "County" for a cleaner representation and to facilitate data merging. Using this population data, we calculated the average 5-year population for each county, capturing a representative figure of the population over recent years.
 
 Merging the sentiment scores with the population data, we computed weighted sentiment scores for both the VADER and BERT models. This weighting was based on the average 5-year population for each county. This step ensured that the sentiment scores were adjusted to reflect the population size of each county, emphasizing the significance of sentiment in more populous regions. Following this, we visualized the weighted sentiment scores, highlighting how the sentiment landscape shifts when considering population magnitude.
+
+Snippet
+<img width="937" alt="Screenshot 2023-11-06 at 12 20 31 PM" src="https://github.com/scottie1013/Weed-Sentiment-Analysis-NLP/assets/114832226/4ed106b4-5ac4-4aca-a95c-a371dde95fee">
